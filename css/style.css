@@ -16,7 +16,7 @@ body {
 }
 
 .mouse-icon {
-  padding-top: 268px;
+  padding-top: 256px;
 }
 
 .about {
@@ -39,4 +39,13 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 60px;
   margin: 30px 0px 30px;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  grid-row-gap: 50px;
+  grid-column-gap: 30px;
 }
