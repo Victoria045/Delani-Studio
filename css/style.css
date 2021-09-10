@@ -20,7 +20,7 @@ body {
 }
 
 .about {
-  padding: 30px 5px 0px;
+  padding: 30px 5px 30px;
 }
 
 .services {
@@ -37,4 +37,6 @@ body {
 .what-we-do {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 60px;
+  margin: 30px 0px 30px;
 }
