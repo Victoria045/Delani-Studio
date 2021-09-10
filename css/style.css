@@ -1,0 +1,24 @@
+@import url('/css/bootstrap.min.css');
+
+body {
+  margin: 0px;
+}
+
+.container-fluid {
+  background-image: url('../assets/backgrounds/h_img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1008px;
+}
+
+.logo {
+  padding: 340px 0px 70px;
+}
+
+.mouse-icon {
+  padding-top: 268px;
+}
+
+.about {
+  padding: 30px 5px 0px;
+}
