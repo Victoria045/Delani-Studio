@@ -29,3 +29,7 @@ body {
   background-size: cover;
   height: 500px;
 }
+
+.services-content {
+  padding: 170px 0px 0px;
+}
