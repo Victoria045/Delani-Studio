@@ -4,7 +4,7 @@ body {
   margin: 0px;
 }
 
-.container-fluid {
+.head {
   background-image: url('../assets/backgrounds/h_img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,4 +21,11 @@ body {
 
 .about {
   padding: 30px 5px 0px;
+}
+
+.services {
+  background-image: url('/assets/backgrounds/s_image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
 }
