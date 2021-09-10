@@ -33,3 +33,8 @@ body {
 .services-content {
   padding: 170px 0px 0px;
 }
+
+.what-we-do {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
