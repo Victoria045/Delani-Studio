@@ -67,9 +67,9 @@
     </div>
 
     <div><h3 class="text-center pt-4">WHAT WE DO</h3></div>
-    <div class="container-fluid what-we-do">
+    <div class="container-fluid what-we-do" id="what-we-do">
       <div class="design">
-        <div class="d-none">
+        <div class="img-cont">
           <h5 class="text-center">DESIGN</h5>
           <p class="text-center">
             Our design practice offers a full range of services including brand
@@ -81,13 +81,13 @@
             sure what gets built is what is needed.
           </p>
         </div>
-        <div class="text-center">
+        <div class="text-center img-content">
           <img src="assets/services_icons/design_icon.png" alt="design" />
           <p class="text-center">DESIGN</p>
         </div>
       </div>
       <div class="development">
-        <div class="d-none">
+        <div class="img-cont">
           <h5 class="text-center">DEVELOPMENT</h5>
           <p class="text-center">
             All engineers are fluent in the latest enterpris, mobile and web
@@ -99,13 +99,13 @@
             and pair programming.
           </p>
         </div>
-        <div class="text-center">
+        <div class="text-center img-content">
           <img src="assets/services_icons/dev_icon.png" alt="design" />
           <p class="text-center">DEVELOPMENT</p>
         </div>
       </div>
       <div class="product">
-        <div class="d-none">
+        <div class="img-cont">
           <h5 class="text-center">PRODUCT MANAGEMENT</h5>
           <p class="text-center">
             Planning and development is iterative. Because we are constantly
@@ -117,7 +117,7 @@
             evolve.
           </p>
         </div>
-        <div class="text-center">
+        <div class="text-center img-content">
           <img src="assets/services_icons/product_icon.png" alt="design" />
           <p class="text-center">PRODUCT MANAGEMENT</p>
         </div>
@@ -147,20 +147,36 @@
     <div class="container-fluid contact">
       <div class="container">
         <h3 class="text-center text-white pt-5 pb-3">CONTACT US</h3>
-        <form>
+        <form id="myForm">
+          <div class="myAlert"></div>
+          <!-- <div class="row form-row">
+            <div class="form-group col">
+              <input class="form-control" type="text" id="fname" name="fname" placeholder="Name..."><br>
+            </div>
+            <div class="form-group col">
+              <input class="form-control" type="email" id="emailAddress" name="fname" placeholder="Email..."><br>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" id="message" rows="5">Message here...</textarea>
+          </div>
+          <div class="form-group text-center">
+             <button class="btn btn-secondary"Send></button>
+          </div> -->
+
           <div class="form-input m-3">
             <div class="detail">
-            <input type="text" id="fname" name="fname" placeholder="Name..."><br>
+            <input class="p-2" type="text" id="fname" name="fname" placeholder="Name..."><br>
             </div>
             <div class="detail">
-            <input type="text" id="lname" name="lname" placeholder="Email...">
+            <input class="p-2" type="text" id="email" name="lname" placeholder="Email...">
             </div> 
           </div>
           <div class="form-floating pt-3">
-            <textarea name="message" style="width:60vw; height:300px">Message here...</textarea>
+            <textarea name="message" style="width:60vw; height:300px" class="p-2" placeholder="Your message here..."></textarea></textarea>
           </div>
           <div>
-            <!-- <input class="text-center" type="submit" id="submit"> -->
+             <!-- <input class="text-center" type="submit" id="submit">  -->
             <div class="col text-center mt-5">
               <button class="btn btn-secondary" type="submit" id="submit">Submit</button>
             </div>
@@ -180,7 +196,7 @@
       <div><img src="assets/social_icons/pinterest.png" alt=""></div>
       <div><img src="assets/social_icons/flickr.png" alt=""></div>
     </div>
-    
+
     <footer>
       <div class="mt-5">
         <p class="text-center pb-0">DELANI STUDIO</p>

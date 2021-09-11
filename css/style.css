@@ -79,22 +79,34 @@ body {
   background-position: center;
 }
 
-.form-input {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+#what-we-do .img-cont {
+  display: none;
+  opacity: 0;
+}
+.img-content {
+  cursor: pointer;
+  opacity: 0px;
 }
 
-#fname {
+.form-input {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+} 
+
+ #fname {
   margin: 0px 0px 0px 30px;
 }
 
 textarea {
   margin: 0px 0px 0px 80px;
+  background: transparent;
 }
 
 .detail input {
   width: 30vw;
-}
+  background: transparent;
+  color: white;
+} 
 
 .socials {
   display: grid;
