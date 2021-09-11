@@ -28,4 +28,12 @@ $(document).ready(function() {
     $(myForm).find('.myAlert').addClass('alert-success').
     html(`** ${myForm.fname.value} we have received your message. Thank you for reaching out to us. **`).show();
   });
+
+  $('.overlay-wrapper').mouseover(function() {
+    $(".overlay-cont").show();
+  });
+  
+  $('.overlay-wrapper').mouseout(function() {
+    $(".overlay-cont").hide();
+  });
 });
