@@ -23,13 +23,13 @@
           </p>
         </div>
         <div class="mouse-icon text-center">
-          <img src="assets/mouse_click.png" alt="mouse-click-icon" />
+          <a href="#about" id="mouse-click" class="d-block"><img src="assets/mouse_click.png" alt="mouse-click-icon" /></a>
         </div>
       </div>
     </div>
 
     <div class="container about">
-      <h3 class="text-center">ABOUT US</h3>
+      <h3 class="text-center" id="about">ABOUT US</h3>
       <p class="text-center">
         When you work with us, you are part of a team of committed
         collaborators. All aspects of software development process are
@@ -145,9 +145,31 @@
     </div>
 
     <div class="container-fluid contact">
-      <img src="assets/backgrounds/c_image.jpg" alt="contact" />
-    </div>
+      <div class="container">
+        <h3 class="text-center text-white pt-5 pb-3">CONTACT US</h3>
+        <form>
+          <div class="form-input m-3">
+            <div class="detail">
+            <input type="text" id="fname" name="fname" placeholder="Name..."><br>
+            </div>
+            <div class="detail">
+            <input type="text" id="lname" name="lname" placeholder="Email...">
+            </div> 
+          </div>
+          <div class="form-floating pt-3">
+            <textarea name="message" style="width:60vw; height:300px">Message here...</textarea>
+          </div>
+          <div>
+            <!-- <input class="text-center" type="submit" id="submit"> -->
+            <div class="col text-center mt-5">
+              <button class="btn btn-secondary" type="submit" id="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
 
+    </div>
+      
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/scripts.js"></script>
   </body>

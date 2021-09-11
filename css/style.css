@@ -70,3 +70,28 @@ body {
   height: 250px;
   width: 310px;
 }
+
+.contact {
+  background-image: url('../assets/backgrounds/c_image.jpg');
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.form-input {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#fname {
+  margin: 0px 0px 0px 30px;
+}
+
+textarea {
+  margin: 0px 0px 0px 80px;
+}
+
+.detail input {
+  width: 30vw;
+}
