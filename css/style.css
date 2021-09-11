@@ -8,7 +8,7 @@ body {
   background-image: url('../assets/backgrounds/h_img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1008px;
+  height: 1000px;
 }
 
 .logo {
@@ -16,7 +16,7 @@ body {
 }
 
 .mouse-icon {
-  padding-top: 256px;
+  padding-top: 250px;
 }
 
 .about {
@@ -48,4 +48,25 @@ body {
   justify-content: center;
   grid-row-gap: 50px;
   grid-column-gap: 30px;
+}
+
+.overlay-wrapper {
+  /* overflow: hidden; */
+  position: relative;
+}
+
+.overlay-cont {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.8);
+  height: 300px;
+  width: 370px;
+}
+
+.overlay {
+  border: solid 4px #ffffff;
+  margin: 24px 0px 0px 26px;
+  height: 250px;
+  width: 310px;
 }
