@@ -22,7 +22,7 @@ body {
 }
 
 .services {
-  background-image: url("/assets/backgrounds/s_image.jpg");
+  background-image: url("../assets/backgrounds/s_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
