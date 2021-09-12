@@ -8,7 +8,7 @@ body {
   background-image: url('../assets/backgrounds/h_img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1000px;
+  height: 1008px;
 }
 
 .logo {
@@ -16,7 +16,7 @@ body {
 }
 
 .mouse-icon {
-  padding-top: 250px;
+  padding-top: 260px;
 }
 
 .about {
@@ -122,6 +122,4 @@ textarea {
   align-items: center;
   justify-content: center;
   width: 35%;
-  /* margin: 0px 20px 0px 20px; */
-  /* grid-gap: 1px; */
 }
