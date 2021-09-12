@@ -27,7 +27,7 @@ overlays.forEach((overlay) => {
   );
 });
 
-//user logic
+
 $(document).ready(function () {
   $(".img-content").click(function (event) {
     const toggledElement = $(event.target).hasClass("img-content")

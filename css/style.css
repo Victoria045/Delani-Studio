@@ -1,5 +1,3 @@
-@import url("/css/bootstrap.min.css");
-
 body {
   margin: 0px;
 }
@@ -86,6 +84,7 @@ body {
   display: none;
   opacity: 0;
 }
+
 .img-content {
   cursor: pointer;
   opacity: 0px;
@@ -150,8 +149,7 @@ textarea::placeholder {
   
   textarea {
     margin: 0px 0px 0px 180px;
-  }
-  
+  } 
 }
 
 @media only screen and (max-width: 1400px) {
