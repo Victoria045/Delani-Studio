@@ -51,8 +51,8 @@ body {
 }
 
 .overlay-wrapper {
-  /* overflow: hidden; */
   position: relative;
+  cursor: pointer;
 }
 
 .overlay-cont {
@@ -99,15 +99,22 @@ body {
 }
 
 textarea {
-  margin: 0px 0px 0px 80px;
+  margin: 0px 0px 0px 70px;
   background: transparent;
+  border: solid 1px #ffffff;
 }
 
 .detail input {
   width: 30vw;
-  background: transparent;
-  color: white;
+  background: transparent;  
+  outline: none;
+  border: solid 1px #ffffff;
 } 
+
+.detail input::placeholder, textarea::placeholder {
+  color: white;
+  opacity: 1;
+}
 
 .socials {
   display: grid;
