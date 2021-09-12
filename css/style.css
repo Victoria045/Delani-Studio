@@ -1,11 +1,11 @@
-@import url('/css/bootstrap.min.css');
+@import url("/css/bootstrap.min.css");
 
 body {
   margin: 0px;
 }
 
 .head {
-  background-image: url('../assets/backgrounds/h_img.jpg');
+  background-image: url("../assets/backgrounds/h_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 1008px;
@@ -24,7 +24,7 @@ body {
 }
 
 .services {
-  background-image: url('/assets/backgrounds/s_image.jpg');
+  background-image: url("/assets/backgrounds/s_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
@@ -36,14 +36,14 @@ body {
 
 .what-we-do {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 60px;
   margin: 30px 0px 30px;
 }
 
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   align-items: center;
   justify-content: center;
   grid-row-gap: 50px;
@@ -53,6 +53,8 @@ body {
 .overlay-wrapper {
   position: relative;
   cursor: pointer;
+  display: grid;
+  place-items: center;
 }
 
 .overlay-cont {
@@ -73,7 +75,7 @@ body {
 }
 
 .contact {
-  background-image: url('../assets/backgrounds/c_image.jpg');
+  background-image: url("../assets/backgrounds/c_image.jpg");
   height: 70vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -91,35 +93,135 @@ body {
 
 .form-input {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-} 
+  grid-template-columns: repeat(2, 1fr);
+}
 
- #fname {
-  margin: 0px 0px 0px 30px;
+#fname {
+  margin: 0px 0px 0px 40px;
 }
 
 textarea {
-  margin: 0px 0px 0px 70px;
+  margin: 0px 0px 0px 80px;
   background: transparent;
   border: solid 1px #ffffff;
 }
 
 .detail input {
   width: 30vw;
-  background: transparent;  
+  background: transparent;
   outline: none;
   border: solid 1px #ffffff;
-} 
+}
 
-.detail input::placeholder, textarea::placeholder {
+.detail input::placeholder,
+textarea::placeholder {
   color: white;
   opacity: 1;
 }
 
 .socials {
   display: grid;
-  grid-template-columns: repeat(9,1fr);
+  grid-template-columns: repeat(9, 1fr);
   align-items: center;
   justify-content: center;
   width: 35%;
+}
+
+@media only screen and (max-width: 1566px) {
+  .head {
+    height: 100vh;
+  }
+
+  .logo {
+    padding: 250px 0px 70px;
+  }
+  
+  .mouse-icon {
+    padding-top: 186px;
+  }
+
+  .portfolio {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #fname {
+    margin: 0px 0px 0px 130px;
+  }
+  
+  textarea {
+    margin: 0px 0px 0px 180px;
+  }
+  
+}
+
+@media only screen and (max-width: 1400px) {
+  #fname {
+    margin: 0px 0px 0px 170px;
+  }
+  
+  textarea {
+    margin: 0px 0px 0px 230px;
+  }  
+
+  .socials {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 1028px) {
+  .portfolio {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #fname {
+    margin: 0px 0px 0px 130px;
+  }
+  
+  textarea {
+    margin: 0px 0px 0px 160px;
+  }
+
+  .socials {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1192px) {
+  .portfolio {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #fname {
+    margin: 0px 10px 0px 60px;
+  }
+  
+  textarea {
+    margin: 0px 0px 0px 110px;
+  }
+
+  .socials {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .what-we-do {
+    grid-template-columns:1fr;
+  }
+
+  .portfolio {
+    grid-template-columns:  1fr
+  }
+
+  #fname {
+    margin: 0px 10px 0px 40px;
+  }
+  
+  textarea {
+    margin: 0px 0px 0px 60px;
+  }
+
+  .socials {
+    width: 70%;
+  }
 }
