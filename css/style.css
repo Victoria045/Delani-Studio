@@ -183,6 +183,32 @@ textarea::placeholder {
   }
 }
 
+@media only screen and (max-width: 1366px) {
+  .head {
+    height: 900px;
+  }
+  .logo {
+    padding: 255px 0px 70px;
+  }
+  
+  .mouse-icon {
+    padding-top: 205px;
+  }
+
+  .portfolio {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #fname {
+    margin: 0px 0px 0px 120px;
+  }
+  
+  textarea {
+    margin: 0px 0px 0px 155px;
+  } 
+}
+
+
 @media only screen and (max-width: 1192px) {
   .portfolio {
     grid-template-columns: repeat(2, 1fr);

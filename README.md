@@ -4,7 +4,7 @@
 [Victoria Beryl](https://github.com/Victoria045)
 
 ## Description
-This is a studio application landing page built based on the user's design. In it there is a "what we do" section where users can toggle between elements and a portfolio section where you are able to hover and see the kind of projects Delani has been part of.
+This is a studio application landing page built based on a given design. In it there is a "what we do" section where users can toggle between elements and a portfolio section where you are able to hover and see the kind of projects Delani has been part of.
 
 ## Setup/Installation Requirements
 * Install your preferred browser
