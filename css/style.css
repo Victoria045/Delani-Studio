@@ -200,7 +200,8 @@ textarea::placeholder {
   }
 
   .services-content {
-4  }
+    padding: 130px 0px 0px;
+  }
 
   .services {
     height: 420px;
