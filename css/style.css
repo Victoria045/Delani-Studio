@@ -14,7 +14,7 @@ body {
 }
 
 .mouse-icon {
-  padding-top: 260px;
+  padding-top: 270px;
 }
 
 .about {
@@ -196,12 +196,11 @@ textarea::placeholder {
   }
   
   .mouse-icon {
-    padding-top: 140px;
+    padding-top: 145px;
   }
 
   .services-content {
-    padding: 130px 0px 0px;
-  }
+4  }
 
   .services {
     height: 420px;
