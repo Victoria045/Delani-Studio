@@ -125,6 +125,10 @@ textarea::placeholder {
   width: 35%;
 }
 
+.delani {
+  font-size: 12px;
+}
+
 @media only screen and (max-width: 1566px) {
   .head {
     height: 100vh;
@@ -185,16 +189,24 @@ textarea::placeholder {
 
 @media only screen and (max-width: 1366px) {
   .head {
-    height: 900px;
+    height: 760px;
   }
   .logo {
-    padding: 255px 0px 70px;
+    padding: 200px 0px 70px;
   }
   
   .mouse-icon {
-    padding-top: 205px;
+    padding-top: 140px;
   }
 
+  .services-content {
+    padding: 130px 0px 0px;
+  }
+
+  .services {
+    height: 420px;
+  }
+  
   .portfolio {
     grid-template-columns: repeat(3, 1fr);
   }
