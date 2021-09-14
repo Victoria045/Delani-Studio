@@ -305,21 +305,19 @@ textarea::placeholder {
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 360px){
   .header {
-    padding: 20px 20px 20px;
-    height: 40%;
+    margin-left: 0px;
   }
   .one {
-    padding: 20px 20px 20px;
-  
+    margin-right: 0px;
   }
   .logo {
-    padding: 150px 80px 40px;
+    padding: 80px 10px 80px;
   }
   
   .mouse-icon {
-    padding-top: 270px;
+    padding-top: 190px;
   } 
   
   .about {
@@ -333,7 +331,6 @@ textarea::placeholder {
   .socials {
     grid-template-columns: repeat(5, 1fr);
     width: 80%;
-    font-weight: 8px;
     padding-top: 10px;
   }
 }
