@@ -30,8 +30,8 @@ This is a studio application landing page built based on a given design. In it t
 ## BDD
 Enter your full name eg **Jane Doe**
 * Enter your email eg **janedoe@gmail.com**
-* **Message your concerns**
-Submit.
+* Message your concerns
+* **Submit.**
 
 * Expected output is **janedoe we have received your message. Thank you for reaching out to us.** 
 
